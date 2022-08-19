@@ -1,0 +1,37 @@
+.aboutContainer {
+  width: 100%;
+  background-color: var(--white);
+}
+
+.container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  display: flex;
+  padding: 20vh 0;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageMe {
+  border-radius: 8px;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 525px;
+}
+
+.description {
+  font-family: 'Satoshi Regular';
+  font-synthesis: 27px;
+  font-size: 1.25rem;
+}
