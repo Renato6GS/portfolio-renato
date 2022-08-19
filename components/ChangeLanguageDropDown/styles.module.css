@@ -1,0 +1,45 @@
+/* dropdown */
+.btnMenu {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border: 1px solid var(--white);
+  font-family: 'Satoshi Regular';
+  font-size: 1rem;
+  color: var(--white);
+  border-radius: 6px;
+  padding: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.btnMenu .caretDown {
+  filter: invert(90%) sepia(1%) saturate(1449%) hue-rotate(320deg) brightness(111%) contrast(98%);
+}
+
+.menuItems {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 5px;
+}
+
+.menuItem {
+  border-radius: 4px;
+  padding: 5px 7px;
+}
+
+@media (hover: hover) {
+  .menuItem:hover {
+    color: #09f;
+  }
+}
+
+.itemActive {
+  color: #09f;
+}
