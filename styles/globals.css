@@ -1,9 +1,15 @@
+:root {
+  --primary-color: #adf0d1;
+  --secondary-color: #002;
+  --white: #fcf7f4;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
 }
 
 a {
@@ -15,12 +21,17 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+@font-face {
+  font-family: 'Satoshi Bold';
+  src: url('/fonts/Satoshi-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Satoshi Regular';
+  src: url('/fonts/Satoshi-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Tanker';
+  src: url('/fonts/Tanker-Regular.woff2') format('woff2');
 }
