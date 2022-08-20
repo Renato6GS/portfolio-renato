@@ -1,0 +1,142 @@
+import { TECHNOLOGIES } from './TECHNOLOGIES';
+import { WIDTHS_IMAGES } from './WIDTH_IMAGES';
+
+export const PROJECTS = [
+  {
+    id: 'p1',
+    title: 'SALUDQUETZAL',
+    description: {
+      EN: 'Web application to search for health services in my city.',
+      ES: 'Aplicación web para buscar servicios de salud en mi ciudad.',
+    },
+    img: '/projects/saludquetzal-images.png',
+    size: WIDTHS_IMAGES.movil,
+    urlDemo: 'https://salud-serach-aplp.vercel.app/',
+    urlCode: null,
+    technologies: [
+      TECHNOLOGIES.nextjs,
+      TECHNOLOGIES.postgresql,
+      TECHNOLOGIES.algolia,
+      TECHNOLOGIES.railway,
+      TECHNOLOGIES.googlemaps,
+    ],
+  },
+  {
+    id: 'p2',
+    title: 'HANGAME',
+    description: {
+      EN: 'A game about the hangman game with words from Spanish and English, where you can play with a friend.',
+      ES: 'Un juego hacer del juego del ahorcado con palabras del Español e Inglés, donde tú podrás jugar con un amigo.',
+    },
+    img: '/projects/hangame-images.png',
+    size: WIDTHS_IMAGES.movil,
+    urlDemo: 'https://hangame-app.vercel.app/',
+    urlCode: 'https://github.com/Renato6GS/hangame-app',
+    technologies: [TECHNOLOGIES.nextjs, TECHNOLOGIES.mongodb],
+  },
+  {
+    id: 'p3',
+    title: 'Web APP for Production Assignment and review',
+    description: {
+      EN: 'Web system to manage and assign the production of policies for an insurer with a log that saves each action performed.',
+      ES: 'Sistema web para gestionar y asignar la producción de polizas para una aseguradora con una bitácora que guarda cada acción realizada.',
+    },
+    img: '/projects/production-images.png',
+    size: WIDTHS_IMAGES.pc,
+    urlDemo: null,
+    urlCode: 'https://github.com/Renato6GS/polizas-app',
+    technologies: [TECHNOLOGIES.nextjs, TECHNOLOGIES.sqlServer, TECHNOLOGIES.sendgrid],
+  },
+  {
+    id: 'p4',
+    title: 'POOL LANDING PAGE',
+    description: {
+      // eslint-disable-next-line quotes
+      EN: "My first paid project with me to a computer science teacher, to advertise the client's pool maintenance services.",
+      ES: 'Mi primer proyecto pagado con mi profesor de informática, para publicitar los servicios de mantenimineto de piscinas de un cliente.',
+    },
+    img: '/projects/pool-images.png',
+    size: WIDTHS_IMAGES.pcApple,
+    urlDemo: 'https://pool-landing-page.vercel.app/',
+    urlCode: 'https://github.com/Cloweling/pool-landing-page',
+    technologies: [TECHNOLOGIES.gatsby],
+  },
+  {
+    id: 'p5',
+    title: 'CALCULATOR APP',
+    description: {
+      EN: 'A multi-theme calculator with the possibility of expanding its options with a scientific calculator.',
+      ES: 'Un calculador multi-tema con la posibilidad de expandir sus opciones con una calculadora científica.',
+    },
+    img: '/projects/calculator-images.png',
+    size: WIDTHS_IMAGES.movil,
+    urlDemo: 'https://calculator-app-dusky.vercel.app/',
+    urlCode: 'https://github.com/Renato6GS/calculator-app',
+    technologies: [TECHNOLOGIES.react],
+  },
+  {
+    id: 'p6',
+    title: 'YOUTUBE CLONE',
+    description: {
+      EN: 'A little YouTube Clone. There is still work to do.',
+      ES: 'Un pequeño clon de YouTube. Aun hay trabajo por hacer.',
+    },
+    img: '/projects/youtube-images.png',
+    size: WIDTHS_IMAGES.pcApple,
+    urlDemo: 'https://youtube-clone-ecru.vercel.app/',
+    urlCode: 'https://github.com/Renato6GS/youtube-clone',
+    technologies: [TECHNOLOGIES.nextjs],
+  },
+  {
+    id: 'p7',
+    title: 'BLOGR',
+    description: {
+      EN: 'Landing page for product advertisement.',
+      ES: 'Landing page para publicidad de productos.',
+    },
+    img: '/projects/blogr-images.png',
+    size: WIDTHS_IMAGES.movil,
+    urlDemo: 'https://blogr-landing-page-6gs.netlify.app/',
+    urlCode: 'https://github.com/Renato6GS/blogr-landing-page',
+    technologies: [TECHNOLOGIES.html, TECHNOLOGIES.css, TECHNOLOGIES.js],
+  },
+  {
+    id: 'p8',
+    title: 'Sunnysisde Agency Landing Page',
+    description: {
+      EN: 'My first page made entirely with vanilla.',
+      ES: 'Mi primera página hecha enteramente con vanilla.',
+    },
+    img: '/projects/sunnyside-images.png',
+    size: WIDTHS_IMAGES.pcApple,
+    urlDemo: 'https://goofy-perlman-3d0bc0.netlify.app/',
+    urlCode: 'https://github.com/Renato6GS/Sunnyside-agency-landing-page',
+    technologies: [TECHNOLOGIES.html, TECHNOLOGIES.css, TECHNOLOGIES.js],
+  },
+  {
+    id: 'p9',
+    title: 'UMG^REST',
+    description: {
+      EN: 'Menu of a virtual restaurant where you can consult the different foods and drinks that it offers.',
+      ES: 'Menú de un restaurante virtual donde puedes consultar los diferentes alimentos y bebidas que ofrece.',
+    },
+    img: '/projects/umg-rest-images.png',
+    size: WIDTHS_IMAGES.pcApple,
+    urlDemo: 'https://umg-restaurant-app.vercel.app/',
+    urlCode: 'https://github.com/Renato6GS/umg-restaurant-app',
+    technologies: [TECHNOLOGIES.nextjs],
+  },
+  {
+    id: 'p10',
+    title: 'UMG Clone',
+    description: {
+      EN: 'A replication of the landing page of my university.',
+      ES: 'Una replicación de la página de inicio de mi universidad.',
+    },
+    img: '/projects/umg-images.png',
+    size: WIDTHS_IMAGES.pcApple,
+    urlDemo: 'https://landing-umg-clone.vercel.app/',
+    urlCode: 'https://github.com/Renato6GS/landing-umg-clone',
+    technologies: [TECHNOLOGIES.astro, TECHNOLOGIES.preact],
+  },
+];

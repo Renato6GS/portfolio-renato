@@ -1,0 +1,22 @@
+.listOfTechnologiesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 15px;
+}
+
+.link {
+  border-radius: 30px;
+  background-color: var(--white);
+  color: var(--secondary-color);
+  padding: 8px 12px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  transition: gap 0.3s ease-in-out;
+}
+
+@media (hover: hover) {
+  .link:hover {
+    gap: 15px;
+  }
+}
