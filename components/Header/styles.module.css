@@ -35,8 +35,9 @@
   color: var(--white);
   font-size: 2rem;
   font-family: 'Tanker';
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   margin: 0;
+  font-weight: 400;
 }
 
 .linksContainer {
