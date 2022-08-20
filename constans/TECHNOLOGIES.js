@@ -1,0 +1,92 @@
+export const TECHNOLOGIES = {
+  react: {
+    key: 't1',
+    name: 'React',
+    logo: '/icons/react.svg',
+    url: 'https://es.reactjs.org/',
+  },
+  nextjs: {
+    key: 't2',
+    name: 'Next.js',
+    logo: '/icons/nextdotjs.svg',
+    url: 'https://nextjs.org/',
+  },
+  postgresql: {
+    key: 't3',
+    name: 'PostgreSQL',
+    logo: '/icons/postgresql.svg',
+    url: 'https://www.postgresql.org/',
+  },
+  algolia: {
+    key: 't4',
+    name: 'Algolia',
+    logo: '/icons/algolia.svg',
+    url: 'https://www.algolia.com/',
+  },
+  railway: {
+    key: 't5',
+    name: 'Railway',
+    logo: '/icons/railway.svg',
+    url: 'https://railway.app/',
+  },
+  googlemaps: {
+    key: 't6',
+    name: 'Google Maps',
+    logo: '/icons/googlemaps.svg',
+    url: 'https://console.cloud.google.com/',
+  },
+  mongodb: {
+    key: 't7',
+    name: 'Mongo DB',
+    logo: '/icons/mongodb.svg',
+    url: 'https://www.mongodb.com/',
+  },
+  sendgrid: {
+    key: 't8',
+    name: 'Sendgrid',
+    logo: '/icons/twilio.svg',
+    url: 'https://www.sendgrid.com/',
+  },
+  sqlServer: {
+    key: 't9',
+    name: 'SQL Server',
+    logo: '/icons/microsoftsqlserver.svg',
+    url: 'https://www.microsoft.com/en-us/sql-server/',
+  },
+  gatsby: {
+    key: 't10',
+    name: 'Gatsby',
+    logo: '/icons/gatsby.svg',
+    url: 'https://www.gatsbyjs.org/',
+  },
+  js: {
+    key: 't11',
+    name: 'JavaScript',
+    logo: '/icons/javascript.svg',
+    url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+  },
+  html: {
+    key: 't12',
+    name: 'HTML',
+    logo: '/icons/html5.svg',
+    url: 'https://developer.mozilla.org/en-US/docs/Web/HTML',
+  },
+  css: {
+    key: 't13',
+    name: 'CSS',
+    logo: '/icons/css3.svg',
+    url: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
+  },
+  astro: {
+    key: 't14',
+    name: 'Astro',
+    logo: '/icons/astro.svg',
+    url: 'https://astro.build/',
+  },
+  preact: {
+    key: 't15',
+    name: 'Preact',
+    logo: '/icons/preact.svg',
+    url: 'https://preactjs.com/',
+  },
+};
