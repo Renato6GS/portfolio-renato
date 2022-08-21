@@ -1,0 +1,33 @@
+.inpirationsSection {
+  padding: 3rem 0 5rem;
+  background-color: var(--secondary-color);
+  opacity: 1;
+  background-image: radial-gradient(var(--primary-color) 0.7px, var(--secondary-color) 0.7px);
+  background-size: 15px 15px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.listOfPeople {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 50px 8%;
+}
+
+.title {
+  display: block;
+  background-color: var(--primary-color);
+  margin: 0 auto 60px;
+  text-align: center;
+  padding: 10px;
+  color: var(--secondary-color);
+  border-radius: 6px;
+  width: fit-content;
+  font-family: 'Satoshi Regular';
+  font-size: 1.35rem;
+}

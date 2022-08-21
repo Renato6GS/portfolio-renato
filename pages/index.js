@@ -4,6 +4,7 @@ import Header from 'components/Header';
 import AboutMe from 'components/AboutMe';
 import Projects from 'components/Projects';
 import NextProjects from 'components/NextProjects';
+import Inpirations from 'components/Inpirations';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <AboutMe />
       <Projects />
       <NextProjects />
+      <Inpirations />
     </>
   );
 }

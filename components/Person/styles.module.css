@@ -1,0 +1,57 @@
+.person {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: stretch;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.title {
+  font-family: 'Satoshi Bold';
+  font-size: 1.5rem;
+  margin: 0;
+  color: var(--white);
+}
+
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.logo {
+  filter: invert(90%) sepia(1%) saturate(1449%) hue-rotate(320deg) brightness(111%) contrast(98%);
+}
+
+@media (hover: hover) {
+  .logo:hover {
+    filter: invert(91%) sepia(15%) saturate(594%) hue-rotate(91deg) brightness(97%) contrast(95%);
+  }
+}
+
+.descriptionContainer {
+  background: linear-gradient(149.42deg, rgba(217, 217, 217, 0.4) 6.93%, rgba(255, 255, 255, 0.1) 82.02%);
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
+  margin: 2.5rem 0 0;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(to right bottom, var(--white), var(--secondary-color)) 1;
+}
+
+.description {
+  text-align: center;
+  color: var(--white);
+  font-family: 'Satoshi Regular';
+  font-size: 1.2rem;
+  padding: 25px;
+  line-height: 27px;
+}

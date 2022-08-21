@@ -45,7 +45,7 @@
   gap: 2rem;
 }
 
-.gitHub {
+.socialLink {
   filter: invert(90%) sepia(1%) saturate(1449%) hue-rotate(320deg) brightness(111%) contrast(98%);
 }
 
@@ -68,7 +68,7 @@
     color: var(--white);
   }
 
-  .gitHub:hover {
+  .socialLink:hover {
     filter: invert(91%) sepia(15%) saturate(594%) hue-rotate(91deg) brightness(97%) contrast(95%);
   }
 }
