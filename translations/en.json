@@ -6,9 +6,19 @@
   "PROFESSION": "FrontEnd Developer",
   "BTN_LABEL": "Download CV",
   "ABOUT_ME": "About me",
-  "DESCRIPTION_PART_1": "+3 years of study in systems engineering and +2 studying web technologies. Web projects developed and designed on assignment and production review that have given me the congratulations of my master engineers.",
-  "DESCRIPTION_PART_2": "Having obtained the best grade in my promotion in engineering every semester along with high university grades support my strong lean mindset and effort.",
+  "DESCRIPTION_PART_1": "+3 years of study in systems engineering and +2 studying web technologies. Different types of web projects developed as a system for Assignment and Production Review, which have earned me the congratulations of my master engineers on repeated occasions.",
+  "DESCRIPTION_PART_2": "With a current GPA of 96.37, having earned the best GPA of my engineering class each semester along with high college grades support my strong lean mindset and effort.",
   "TITLE_PROJECTS": "Developed Projects",
   "PROJECT_LANGUAGE": "EN",
-  "TECHNOLOGIES": "Technologies"
+  "TECHNOLOGIES": "Technologies",
+  "NEXT_PROJECT": "Next Projects",
+  "NEXT_PROJECT_1_TITLE": "Telepsychology system with video calls in real time",
+  "NEXT_PROJECT_1_DESC_1": "Virtual solution that will provide support for those who want to see a psychologist and start treatment ",
+  "NEXT_PROJECT_1_DESC_EMPHASIS": "psychologist and start treatment",
+  "NEXT_PROJECT_1_DESC_2": ", but due to different circumstances, cannot do so in person.",
+
+  "NEXT_PROJECT_2_TITLE": "System to manage condominiums and apartments",
+  "NEXT_PROJECT_2_DESC_1": "System that allows the ",
+  "NEXT_PROJECT_2_DESC_EMPHASIS": "administration and management",
+  "NEXT_PROJECT_2_DESC_2": " of condominiums and apartments, with an exhaustive control of who enters and who leaves the infrastructure and generation of reports."
 }

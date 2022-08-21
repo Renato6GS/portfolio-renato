@@ -1,0 +1,63 @@
+.nextProjectsSection {
+  background-color: var(--white);
+  padding: 6rem 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-family: 'Satoshi Regular';
+  font-size: 2rem;
+  color: var(--secondary-color);
+}
+
+.arrowsContainer {
+  width: 100%;
+  max-width: 600px;
+  padding: 0 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.projects {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 1.5rem;
+}
+
+.project {
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titleProject {
+  font-family: 'Satoshi Bold';
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 36px;
+  color: var(--secondary-color);
+}
+
+.descriptionProject {
+  color: var(--secondary-color);
+  font-family: 'Satoshi Regular';
+  font-family: 1.25rem;
+  line-height: 27px;
+  text-align: center;
+}
+
+.descriptionBold {
+  font-family: 'Satoshi Bold';
+}

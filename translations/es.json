@@ -6,9 +6,19 @@
   "PROFESSION": "Desarrollador FrontEnd",
   "BTN_LABEL": "Descargar CV",
   "ABOUT_ME": "Acerca de mi",
-  "DESCRIPTION_PART_1": "+3 años de estudio en Ingeniería en Sistemas y +2 estudiando tecnologías web. Proyectos web desarrollados y diseñados para la asignación y revisión de producción que me han hecho merecedor de las felicitaciones de mis maestros ingenieros.",
-  "DESCRIPTION_PART_2": "Habiendo obtenido el mejor promedio de mi promoción de ingeniería cada semestre junto con altas calificaciones universitarias respaldan mi fuerte mentalidad lean y esfuerzo. ",
+  "DESCRIPTION_PART_1": "+3 años de estudio en Ingeniería en Sistemas y +2 estudiando tecnologías web. Diferentes tipos de proyectos web desarrollados como un sistem apara la Asignación y Revisión de Producción, los cuales me han hecho merecedor de las felicitaciones de mis maestros ingenieros en repetidas ocasiones.",
+  "DESCRIPTION_PART_2": "Con un promedio actual de 96.37, haber obtenido el mejor promedio de mi promoción de ingeniería cada semestre junto con altas calificaciones universitarias respaldan mi fuerte mentalidad ordenada y esfuerzo.",
   "TITLE_PROJECTS": "Proyectos desarrollados",
   "PROJECT_LANGUAGE": "ES",
-  "TECHNOLOGIES": "Tecnologías"
+  "TECHNOLOGIES": "Tecnologías",
+  "NEXT_PROJECT": "Siguientes Proyectos",
+  "NEXT_PROJECT_1_TITLE": "Sistema de telepsicología con video llamadas en tiempo real",
+  "NEXT_PROJECT_1_DESC_1": "Solución virtual que proporcionará apoyo para aquellos quienes quieran acudir a un ",
+  "NEXT_PROJECT_1_DESC_EMPHASIS": "psicólogo/a y empezar un tratamiento",
+  "NEXT_PROJECT_1_DESC_2": ", pero debido a diferentes circunstancias, no pueden hacerlo de manera presencial.",
+
+  "NEXT_PROJECT_2_TITLE": "Sistema para gestionar condominios y apartamentos",
+  "NEXT_PROJECT_2_DESC_1": "Sistema que permitirá a la ",
+  "NEXT_PROJECT_2_DESC_EMPHASIS": "administración y gestión",
+  "NEXT_PROJECT_2_DESC_2": " de condominios y apartamentos, con un exhaustivo control en quién entra y quién sale de la infraestructura junto a la generación de reportes."
 }

@@ -3,7 +3,7 @@ import { WIDTHS_IMAGES } from './WIDTH_IMAGES';
 
 export const PROJECTS = [
   {
-    id: 'p1',
+    key: 'p1',
     title: 'SALUDQUETZAL',
     description: {
       EN: 'Web application to search for health services in my city.',
@@ -22,7 +22,7 @@ export const PROJECTS = [
     ],
   },
   {
-    id: 'p2',
+    key: 'p2',
     title: 'HANGAME',
     description: {
       EN: 'A game about the hangman game with words from Spanish and English, where you can play with a friend.',
@@ -35,7 +35,7 @@ export const PROJECTS = [
     technologies: [TECHNOLOGIES.nextjs, TECHNOLOGIES.mongodb],
   },
   {
-    id: 'p3',
+    key: 'p3',
     title: 'Web APP for Production Assignment and review',
     description: {
       EN: 'Web system to manage and assign the production of policies for an insurer with a log that saves each action performed.',
@@ -48,7 +48,7 @@ export const PROJECTS = [
     technologies: [TECHNOLOGIES.nextjs, TECHNOLOGIES.sqlServer, TECHNOLOGIES.sendgrid],
   },
   {
-    id: 'p4',
+    key: 'p4',
     title: 'POOL LANDING PAGE',
     description: {
       // eslint-disable-next-line quotes
@@ -62,7 +62,7 @@ export const PROJECTS = [
     technologies: [TECHNOLOGIES.gatsby],
   },
   {
-    id: 'p5',
+    key: 'p5',
     title: 'CALCULATOR APP',
     description: {
       EN: 'A multi-theme calculator with the possibility of expanding its options with a scientific calculator.',
@@ -75,7 +75,7 @@ export const PROJECTS = [
     technologies: [TECHNOLOGIES.react],
   },
   {
-    id: 'p6',
+    key: 'p6',
     title: 'YOUTUBE CLONE',
     description: {
       EN: 'A little YouTube Clone. There is still work to do.',
@@ -88,7 +88,7 @@ export const PROJECTS = [
     technologies: [TECHNOLOGIES.nextjs],
   },
   {
-    id: 'p7',
+    key: 'p7',
     title: 'BLOGR',
     description: {
       EN: 'Landing page for product advertisement.',
@@ -101,7 +101,7 @@ export const PROJECTS = [
     technologies: [TECHNOLOGIES.html, TECHNOLOGIES.css, TECHNOLOGIES.js],
   },
   {
-    id: 'p8',
+    key: 'p8',
     title: 'Sunnysisde Agency Landing Page',
     description: {
       EN: 'My first page made entirely with vanilla.',
@@ -114,7 +114,7 @@ export const PROJECTS = [
     technologies: [TECHNOLOGIES.html, TECHNOLOGIES.css, TECHNOLOGIES.js],
   },
   {
-    id: 'p9',
+    key: 'p9',
     title: 'UMG^REST',
     description: {
       EN: 'Menu of a virtual restaurant where you can consult the different foods and drinks that it offers.',
@@ -127,7 +127,7 @@ export const PROJECTS = [
     technologies: [TECHNOLOGIES.nextjs],
   },
   {
-    id: 'p10',
+    key: 'p10',
     title: 'UMG Clone',
     description: {
       EN: 'A replication of the landing page of my university.',
