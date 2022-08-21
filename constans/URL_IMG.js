@@ -1,6 +1,6 @@
 export const URL_IMG = {
   RENATO: '/img/renato-avatar.jpg',
-  MIDUDEV: '/img/midudev-avatar.png',
-  CRISTINA: '/img/midudev-cristina.png',
-  BERNARDO: '/img/midudev-bernardo.png',
+  MIDUDEV: '/img/midudev.jpg',
+  CRISTINA: '/img/cristina.jpg',
+  BERNARDO: '/img/bernardo.jpg',
 };

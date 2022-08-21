@@ -18,10 +18,10 @@ export default function Header() {
         <h1 className={styles.title}>LUIS RENATO GRANADOS OGALDEZ</h1>
         <h2 className={styles.profession}>{t('PROFESSION')}</h2>
         <div className={styles.linksContainer}>
-          <a href='https://github.com/renato6gs' className={styles.gitHub}>
+          <a href='https://github.com/renato6gs' className={styles.socialLink}>
             <Image src={'/icons/github.svg'} width={'32'} height={'32'} alt='GitHub Renato' />
           </a>
-          <a href='https://www.linkedin.com/in/renato-granados-636935233/' className={styles.gitHub}>
+          <a href='https://www.linkedin.com/in/renato-granados-636935233/' className={styles.socialLink}>
             <Image src={'/icons/linkedin.svg'} width={'32'} height={'32'} alt='LinkedIn Renato' />
           </a>
         </div>
