@@ -26,7 +26,7 @@ export const PROJECTS = [
     title: 'HANGAME',
     description: {
       EN: 'A game about the hangman game with words from Spanish and English, where you can play with a friend.',
-      ES: 'Un juego hacer del juego del ahorcado con palabras del Español e Inglés, donde tú podrás jugar con un amigo.',
+      ES: 'Un juego del ahorcado con palabras del Español e Inglés, donde tú podrás jugar con un amigo.',
     },
     img: '/projects/hangame-images.png',
     size: WIDTHS_IMAGES.movil,
@@ -39,7 +39,7 @@ export const PROJECTS = [
     title: 'Web APP for Production Assignment and review',
     description: {
       EN: 'Web system to manage and assign the production of policies for an insurer with a log that saves each action performed.',
-      ES: 'Sistema web para gestionar y asignar la producción de polizas para una aseguradora con una bitácora que guarda cada acción realizada.',
+      ES: 'Sistema web para gestionar y asignar la producción de pólizas para una aseguradora con una bitácora que guarda cada acción realizada.',
     },
     img: '/projects/production-images.png',
     size: WIDTHS_IMAGES.pc,
@@ -66,7 +66,7 @@ export const PROJECTS = [
     title: 'CALCULATOR APP',
     description: {
       EN: 'A multi-theme calculator with the possibility of expanding its options with a scientific calculator.',
-      ES: 'Un calculador multi-tema con la posibilidad de expandir sus opciones con una calculadora científica.',
+      ES: 'Una calculadora multi-tema con la posibilidad de expandir sus opciones con una calculadora científica.',
     },
     img: '/projects/calculator-images.png',
     size: WIDTHS_IMAGES.movil,

@@ -5,7 +5,7 @@ export const SOCIAL_MEDIA_PERSON = {
     image: 'MIDUDEV',
     description: {
       EN: 'He is a great person who teaches good practices, new technologies, tools, soft skills and mucho more, in different media. Basically he is the person who made me jump into web development and become a better professional.',
-      ES: 'Él es una gran persona quien enseña buenas prácticas, nuevas tecnologías, herramientas, soft skills y mucho más, en diferentes medios. Básicamente es la persona que me hizo dar el salto al desarrollo web y convertir en un mejor profesional.',
+      ES: 'Él es una gran persona quien enseña buenas prácticas, nuevas tecnologías, herramientas, soft skills y mucho más, en diferentes medios. Básicamente es la persona que me hizo dar el salto al desarrollo web y convertirme en un mejor profesional.',
     },
     socialMedia: [
       {
@@ -57,7 +57,7 @@ export const SOCIAL_MEDIA_PERSON = {
     image: 'BERNARDO',
     description: {
       EN: 'My systems engineer who urged me to continue in the career and thanks to him and his great explanations I am here learning and developing great projects.',
-      ES: 'Mi ingeniero en sistemas quien mi instó en continuar en la carrera y que gracias a él y a sus grandes explicaciones, estoy aquí aprendiendo y desarrollando grandes proyectos.',
+      ES: 'Mi ingeniero en sistemas quien me instó en continuar en la carrera y que gracias a él y a sus grandes explicaciones, estoy aquí aprendiendo y desarrollando grandes proyectos.',
     },
     socialMedia: [
       {
