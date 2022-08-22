@@ -7,6 +7,7 @@ import NextProjects from 'components/NextProjects';
 import Inpirations from 'components/Inpirations';
 import FormSection from 'components/FormSection';
 import Footer from 'components/Footer';
+import StickyNav from 'components/StickyNav';
 
 export default function Home() {
   return (
@@ -17,12 +18,15 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Header />
-      <AboutMe />
-      <Projects />
-      <NextProjects />
-      <Inpirations />
-      <FormSection />
-      <Footer />
+      <main>
+        <StickyNav />
+        <AboutMe />
+        <Projects />
+        <NextProjects />
+        <Inpirations />
+        <FormSection />
+        <Footer />
+      </main>
     </>
   );
 }

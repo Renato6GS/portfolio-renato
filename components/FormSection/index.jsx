@@ -6,7 +6,7 @@ export default function FormSection() {
   const { t } = useI18N();
 
   return (
-    <section className={styles.formSection}>
+    <section className={styles.formSection} id='contact'>
       <div className={styles.container}>
         <div className={styles.instructionsContainer}>
           <h2 className={styles.title}>{t('CONTACT_ME')}</h2>

@@ -10,7 +10,7 @@ export default function Header() {
   const { t } = useI18N();
 
   return (
-    <header className={styles.header}>
+    <header className={styles.header} id='home'>
       <header className={styles.headerMenu}>
         <ChangeLanguageDropDown />
       </header>

@@ -35,5 +35,12 @@
   "SEND_ERROR": "El email no se pudo enviar 😢",
   "AUTHOR": "Creado y diseñado por mi",
   "COPYRIGHT": "No copyright 😉 Tu puedes encontrar el código fuente ",
-  "COPYRIGHT_LINK": "aquí"
+  "COPYRIGHT_LINK": "aquí",
+
+  "NAV_HOME": "Inicio",
+  "NAV_ABOUT": "Acerca de",
+  "NAV_PROJECTS": "Proyectos",
+  "NAV_NEXT_PROJECTS": "Siguientes Proyectos",
+  "NAV_NEXT_INSPIRATION": "Inspiraciones",
+  "NAV_CONTACT": "Contacto"
 }
