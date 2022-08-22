@@ -1,0 +1,30 @@
+.stickyContainer {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--secondary-color);
+  z-index: 1;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--white);
+}
+
+.ul {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  color: var(--white);
+  display: flex;
+  gap: 3rem;
+}
+
+.li {
+  list-style: none;
+  padding: 0;
+}
+
+@media (hover: hover) {
+  .anchor:hover {
+    color: var(--primary-color);
+  }
+}

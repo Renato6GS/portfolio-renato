@@ -35,5 +35,12 @@
   "SEND_ERROR": "The email could not be sent 😢",
   "AUTHOR": "Made and designed by me",
   "COPYRIGHT": "No copyright 😉 You cand find the source code ",
-  "COPYRIGHT_LINK": "here"
+  "COPYRIGHT_LINK": "here",
+
+  "NAV_HOME": "Home",
+  "NAV_ABOUT": "About me",
+  "NAV_PROJECTS": "Projects",
+  "NAV_NEXT_PROJECTS": "Next projects",
+  "NAV_NEXT_INSPIRATION": "Inspirations",
+  "NAV_CONTACT": "Contact"
 }

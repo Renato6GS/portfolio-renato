@@ -6,7 +6,7 @@ export default function Projects() {
   const { t } = useI18N();
 
   return (
-    <section className={styles.projectsSection} id='developedProjects'>
+    <section className={styles.projectsSection} id='projects'>
       <div className={styles.container}>
         <h2 className={styles.title}>{t('TITLE_PROJECTS') || 'Developed Projects'}</h2>
         <ListOfProjects />

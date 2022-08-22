@@ -5,7 +5,7 @@ import { SOCIAL_MEDIA_PERSON } from 'constans/SOCIAL_MEDIA';
 
 export default function Inpirations() {
   return (
-    <section className={styles.inpirationsSection}>
+    <section className={styles.inpirationsSection} id='inspirations'>
       <div className={styles.container}>
         <h2 className={styles.title}>INSPIRATIONS</h2>
         <div className={styles.listOfPeople}>
