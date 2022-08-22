@@ -1,0 +1,66 @@
+.form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.nameEmailContainer {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+}
+
+.formGroup {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.label {
+  font-family: 'Satoshi Regular';
+}
+
+.inputText {
+  padding: 12px 10px;
+  border-radius: 4px;
+  border: 2px solid var(--secondary-color);
+  font-family: 'Satoshi Regular';
+}
+
+.textarea {
+  resize: none;
+}
+
+.formGroupAria {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.btnContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btnSubmit {
+  font-family: 'Satoshi Regular';
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  padding: 11px 14px;
+  border-radius: 6px;
+  border-width: 0px;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+@media (hover: hover) {
+  .btnSubmit:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+  }
+}
