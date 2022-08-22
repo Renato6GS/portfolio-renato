@@ -20,5 +20,20 @@
   "NEXT_PROJECT_2_TITLE": "System to manage condominiums and apartments",
   "NEXT_PROJECT_2_DESC_1": "System that allows the ",
   "NEXT_PROJECT_2_DESC_EMPHASIS": "administration and management",
-  "NEXT_PROJECT_2_DESC_2": " of condominiums and apartments, with an exhaustive control of who enters and who leaves the infrastructure and generation of reports."
+  "NEXT_PROJECT_2_DESC_2": " of condominiums and apartments, with an exhaustive control of who enters and who leaves the infrastructure and generation of reports.",
+
+  "CONTACT_ME": "Contact me",
+  "CONTACT_DESC": "If you have any questions about me or there is simply something you want to tell me, you can contact me through this form or on ",
+  "FIELD_NAME": "Your name (required)",
+  "FIELD_EMAIL": "Your email (required)",
+  "FIELD_MESSAGE": "Your message (required)",
+  "SEND_BTN": "Send",
+  "FIELD_NAME_PLACEHOLDER": "Eg.: John Doe",
+  "FIELD_EMAIL_PLACEHOLDER": "Eg.: john@gmail.com",
+  "FIELD_MESSAGE_PLACEHOLDER": "When you graduate...",
+  "SEND_SUCCESS": "Email send correctly! 😊",
+  "SEND_ERROR": "The email could not be sent 😢",
+  "AUTHOR": "Made and designed by me",
+  "COPYRIGHT": "No copyright 😉 You cand find the source code ",
+  "COPYRIGHT_LINK": "here"
 }

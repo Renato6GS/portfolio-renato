@@ -49,25 +49,7 @@
   filter: invert(90%) sepia(1%) saturate(1449%) hue-rotate(320deg) brightness(111%) contrast(98%);
 }
 
-.btnCV {
-  font-family: 'Satoshi Regular';
-  color: var(--secondary-color);
-  font-size: 1.25rem;
-  padding: 9px 12px;
-  background-color: var(--white);
-  border-radius: 6px;
-  margin-top: 1rem;
-  border: 1px solid transparent;
-  transition: background 0.3s ease-in-out, border 0.3s ease-in-out, color 0.3s ease-in-out;
-}
-
 @media (hover: hover) {
-  .btnCV:hover {
-    background-color: transparent;
-    border-color: var(--white);
-    color: var(--white);
-  }
-
   .socialLink:hover {
     filter: invert(91%) sepia(15%) saturate(594%) hue-rotate(91deg) brightness(97%) contrast(95%);
   }

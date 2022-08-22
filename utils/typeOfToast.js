@@ -1,7 +1,7 @@
 import { toast } from 'react-toastify';
 
-export const notifySuccess = () =>
-  toast.success('Email send correctly! 😊', {
+export const notifySuccess = ({ message }) =>
+  toast.success(message, {
     position: 'top-center',
     autoClose: 3000,
     hideProgressBar: false,
@@ -10,8 +10,8 @@ export const notifySuccess = () =>
     draggable: true,
   });
 
-export const notifyError = () =>
-  toast.error('The email could not be sent 😢', {
+export const notifyError = ({ message }) =>
+  toast.error(message, {
     position: 'top-center',
     autoClose: 3000,
     hideProgressBar: false,

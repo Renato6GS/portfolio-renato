@@ -1,15 +1,17 @@
 import Form from 'components/Form';
+import { useI18N } from 'context/i18n';
 import styles from './styles.module.css';
 
 export default function FormSection() {
+  const { t } = useI18N();
+
   return (
     <section className={styles.formSection}>
       <div className={styles.container}>
         <div className={styles.instructionsContainer}>
-          <h2 className={styles.title}>Contact with Me</h2>
+          <h2 className={styles.title}>{t('CONTACT_ME')}</h2>
           <p className={styles.instructions}>
-            If you have any questions about me or there is simply something you want to tell me, you can contact me
-            through this form or on{' '}
+            {t('CONTACT_DESC')}{' '}
             <a className={styles.linkedIn} href='https://www.linkedin.com/in/renato-granados-636935233/'>
               LinkedIn
             </a>

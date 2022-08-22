@@ -1,0 +1,18 @@
+.btn {
+  font-family: 'Satoshi Regular';
+  color: var(--secondary-color);
+  font-size: 1.25rem;
+  padding: 9px 12px;
+  background-color: var(--white);
+  border-radius: 6px;
+  border: 1px solid transparent;
+  transition: background 0.3s ease-in-out, border 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+@media (hover: hover) {
+  .btn:hover {
+    background-color: transparent;
+    border-color: var(--white);
+    color: var(--white);
+  }
+}
