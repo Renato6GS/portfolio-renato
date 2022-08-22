@@ -9,7 +9,7 @@
   border-bottom: 1px solid var(--white);
 }
 
-.ul {
+.ulDesktop {
   width: 100%;
   max-width: 1240px;
   margin: 0 auto;
@@ -23,8 +23,84 @@
   padding: 0;
 }
 
+.ulMobile {
+  display: none;
+}
+
 @media (hover: hover) {
   .anchor:hover {
     color: var(--primary-color);
   }
+}
+
+@media screen and (max-width: 800px) {
+  .stickyContainer {
+    position: fixed;
+    top: auto;
+    bottom: 0;
+    border-bottom: none;
+    padding: 0;
+  }
+
+  .ulDesktop {
+    display: none;
+  }
+
+  .ulMobile {
+    display: block;
+  }
+}
+
+/* MOBILE */
+.ulMobile {
+  width: 100%;
+  margin: 0;
+  padding: 0.4rem 0;
+}
+
+.radioGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+  padding: 0 10px;
+}
+
+.radioOption {
+  width: 0;
+  flex: 1 1 0px;
+}
+
+.liMobile {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+.anchorMobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4px;
+  white-space: nowrap;
+}
+
+.anchorMobile {
+  font-size: 0.7rem;
+  font-family: 'Satoshi Regular';
+}
+
+.activeMenu {
+  color: white;
+}
+
+.iconNav {
+  filter: invert(90%) sepia(1%) saturate(1449%) hue-rotate(320deg) brightness(111%) contrast(98%);
+}
+
+.activeIcon {
+  filter: invert(91%) sepia(15%) saturate(594%) hue-rotate(91deg) brightness(97%) contrast(95%);
 }

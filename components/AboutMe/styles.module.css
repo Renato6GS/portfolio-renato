@@ -35,3 +35,24 @@
   font-synthesis: 27px;
   font-size: 1.25rem;
 }
+
+@media screen and (max-width: 1240px) {
+  .container {
+    padding: 3rem 1.5rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imageContainer {
+    width: 70%;
+  }
+
+  .quotesContainer {
+    width: 15%;
+  }
+}

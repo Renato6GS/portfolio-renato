@@ -42,3 +42,9 @@
   font-family: 'Satoshi Regular';
   font-size: 1.35rem;
 }
+
+@media screen and (max-width: 1240px) {
+  .container {
+    padding: 3rem 1.5rem;
+  }
+}

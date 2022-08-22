@@ -43,6 +43,7 @@
 .linksContainer {
   display: flex;
   gap: 2rem;
+  margin-bottom: 15px;
 }
 
 .socialLink {
@@ -75,3 +76,21 @@
 }
 
 /* QUITAR EL EL BOTÓN EN DISPOSITIVOS */
+@media screen and (max-width: 800px) {
+  .header {
+    height: 90vh;
+    min-height: 90vh;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .profession {
+    font-size: 1.25rem;
+  }
+
+  .linkAboutMe {
+    display: none;
+  }
+}
