@@ -6,6 +6,7 @@ import Projects from 'components/Projects';
 import NextProjects from 'components/NextProjects';
 import Inpirations from 'components/Inpirations';
 import FormSection from 'components/FormSection';
+import Footer from 'components/Footer';
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <NextProjects />
       <Inpirations />
       <FormSection />
+      <Footer />
     </>
   );
 }

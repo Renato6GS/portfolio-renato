@@ -4,6 +4,7 @@ import { ChangeLanguageDropDown } from 'components/ChangeLanguageDropDown';
 
 import styles from './styles.module.css';
 import Avatar from 'components/Avatar';
+import ButtonCTA from 'components/ButtonCTA';
 
 export default function Header() {
   const { t } = useI18N();
@@ -25,11 +26,12 @@ export default function Header() {
             <Image src={'/icons/linkedin.svg'} width={'32'} height={'32'} alt='LinkedIn Renato' />
           </a>
         </div>
-        <a
+        {/* <a
           href='https://docs.google.com/document/d/1FtUEsZK2coWCr-Lb0j_dEklNS5yRxAbBVWRcTMVBPfI/edit?usp=sharing'
           className={styles.btnCV}>
           {t('BTN_LABEL')}
-        </a>
+        </a> */}
+        <ButtonCTA>{t('BTN_LABEL')}</ButtonCTA>
       </main>
       <a className={styles.linkAboutMe} href='#aboutMe'>
         {t('ABOUT_ME')}
