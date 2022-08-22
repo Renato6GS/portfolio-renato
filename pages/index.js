@@ -5,6 +5,7 @@ import AboutMe from 'components/AboutMe';
 import Projects from 'components/Projects';
 import NextProjects from 'components/NextProjects';
 import Inpirations from 'components/Inpirations';
+import FormSection from 'components/FormSection';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Projects />
       <NextProjects />
       <Inpirations />
+      <FormSection />
     </>
   );
 }

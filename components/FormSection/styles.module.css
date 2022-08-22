@@ -1,0 +1,39 @@
+.formSection {
+  background-color: var(--white);
+}
+
+.container {
+  width: 100%;
+  max-width: 1240px;
+  padding: 8rem 0;
+  margin: 0 auto;
+  display: flex;
+  gap: 2rem;
+}
+
+.instructionsContainer {
+  width: 40%;
+}
+
+.formContainer {
+  width: 60%;
+}
+
+.title {
+  font-family: 'Satoshi Bold';
+  font-size: 2rem;
+  color: var(--secondary-color);
+}
+
+.instructions {
+  color: var(--secondary-color);
+  font-family: 'Satoshi Regular';
+  font-family: 1.25rem;
+  line-height: 27px;
+  width: 90%;
+}
+
+.linkedIn {
+  font-family: 'Satoshi Bold';
+  color: #09f;
+}

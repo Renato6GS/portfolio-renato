@@ -6,11 +6,7 @@ import styles from './styles.module.css';
 
 export default function Person({ person = {} }) {
   const { t } = useI18N();
-
   const { name = '', description = {}, socialMedia = [], image = '' } = person;
-
-  console.log('imagen:');
-  console.log(image);
 
   return (
     <div className={styles.person}>
