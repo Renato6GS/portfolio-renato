@@ -3,7 +3,7 @@ export const getDataForm = ({ form }) => {
 
   const data = [];
   for (const [, value] of formData) {
-    data.push(value);
+    data.push(value.trim());
   }
 
   const [name, email, message] = data;

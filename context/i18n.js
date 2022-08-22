@@ -1,7 +1,6 @@
 import { createContext, useContext, useCallback } from 'react';
 import { useRouter } from 'next/router';
 
-// Esto es bueno para aplicaciones no tan grandes
 import es from '../translations/es.json';
 import en from '../translations/en.json';
 
@@ -11,10 +10,6 @@ const languages = { es, en };
 
 export function I18nProvider({ children }) {
   const { locale } = useRouter();
-
-  // Callback: no era tan necesario, aunque lo pondremos por rendimiento y evitar problemas futuros.
-  // useCallback es para memorizar una función y useEffect es para ejecutar código renderizado en un componente
-  // El useMemo solo sería para valores, por ejemplo, filtrar un array de 10 mil elementos. El useMemo podría simular useCallback
   const t = useCallback(
     (key, ...args) => {
       let translation = languages[locale][key];

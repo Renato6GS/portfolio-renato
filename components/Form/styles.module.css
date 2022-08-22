@@ -64,3 +64,10 @@
     color: var(--primary-color);
   }
 }
+
+@media screen and (max-width: 900px) {
+  .nameEmailContainer {
+    flex-direction: column;
+    /* align-items: center; */
+  }
+}

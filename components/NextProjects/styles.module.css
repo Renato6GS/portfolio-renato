@@ -61,3 +61,23 @@
 .descriptionBold {
   font-family: 'Satoshi Bold';
 }
+
+@media screen and (max-width: 800px) {
+  .nextProjectsSection {
+    padding: 2rem 0;
+  }
+
+  .container {
+    padding: 3rem 1.5rem;
+    gap: 2.5rem;
+  }
+
+  .arrowsContainer {
+    display: none;
+  }
+
+  .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+}
