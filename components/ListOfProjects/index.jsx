@@ -24,13 +24,13 @@ export default function ListOfProjects() {
                 </p>
                 <div className={styles.linksContainer}>
                   {urlDemo && (
-                    <a className={styles.link} href={urlDemo}>
+                    <a className={styles.link} href={urlDemo} target='_blank' rel='noopener noreferrer'>
                       Demo
                       <Image src={'/icons/arrowToRight.svg'} width='24' height='24' alt={'Demo of the project'} />
                     </a>
                   )}
                   {urlCode && (
-                    <a className={styles.link} href={urlCode}>
+                    <a className={styles.link} href={urlCode} target='_blank' rel='noopener noreferrer'>
                       GitHub
                       <Image src={'/icons/github.svg'} width='24' height='24' alt={'Link to code source'} />
                     </a>

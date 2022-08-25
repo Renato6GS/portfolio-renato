@@ -12,10 +12,18 @@ export default function Footer() {
         <div className={styles.linksContainer}>
           <ButtonCTA>{t('BTN_LABEL')}</ButtonCTA>
           <div className={styles.socialContainer}>
-            <a href='https://github.com/renato6gs' className={styles.socialLink}>
+            <a
+              href='https://github.com/renato6gs'
+              className={styles.socialLink}
+              target='_blank'
+              rel='noopener noreferrer'>
               <Image src={'/icons/github.svg'} width={'32'} height={'32'} alt='GitHub Renato' />
             </a>
-            <a href='https://www.linkedin.com/in/renato-granados-636935233/' className={styles.socialLink}>
+            <a
+              href='https://www.linkedin.com/in/renato-granados-636935233/'
+              className={styles.socialLink}
+              target='_blank'
+              rel='noopener noreferrer'>
               <Image src={'/icons/linkedin.svg'} width={'32'} height={'32'} alt='LinkedIn Renato' />
             </a>
           </div>
