@@ -15,7 +15,7 @@ export default function Person({ person = {} }) {
       <div className={styles.socialMedia}>
         {socialMedia.map(({ key, url, logo }) => {
           return (
-            <a href={url} key={key}>
+            <a href={url} key={key} target='_blank' rel='noopener noreferrer'>
               <Image className={styles.logo} src={logo} width='24' height='24' alt='' />
             </a>
           );
