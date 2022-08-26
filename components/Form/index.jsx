@@ -18,13 +18,18 @@ export default function Form() {
     const { userObj } = getDataForm({ form: e.target });
     try {
       const { name, email, message } = userObj;
-      sendEmail({ name, email, message }).then((res) => {
-        return res ? notifySuccess({ message: t('SEND_SUCCESS') }) : notifyError({ message: t('SEND_ERROR') });
-      });
+      sendEmail({ name, email, message })
+        .then((res) => {
+          setLoading(false);
+          return res ? notifySuccess({ message: t('SEND_SUCCESS') }) : notifyError({ message: t('SEND_ERROR') });
+        })
+        .catch((e) => {
+          console.log(e);
+          notifyError({ message: t('SEND_ERROR') });
+          setLoading(false);
+        });
     } catch (error) {
       notifyError({ message: t('SEND_ERROR') });
-    } finally {
-      setLoading(false);
     }
   };
 
