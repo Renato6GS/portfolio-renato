@@ -38,5 +38,3 @@ next-env.d.ts
 .vscode
 .vscode/*
 
-pages/api/sendEmailApi.js
-
