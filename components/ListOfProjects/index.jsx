@@ -10,11 +10,18 @@ export default function ListOfProjects() {
 
   return (
     <div className={styles.listOfProjectsContainer}>
-      {PROJECTS.map(({ key, title, description, img, size, urlDemo, urlCode, technologies }) => {
+      {PROJECTS.map(({ key, title, description, img, imgBlur, size, urlDemo, urlCode, technologies }) => {
         return (
           <article key={key} className={styles.projectContainer}>
             <div className={styles.projectImageContainer}>
-              <Image src={img} alt={title} width={size.width} height={size.height} />
+              <Image
+                src={img}
+                alt={title}
+                width={size.width}
+                height={size.height}
+                placeholder='blur'
+                blurDataURL={imgBlur}
+              />
             </div>
             <div className={styles.projectInfoContainer}>
               <div className={styles.firstDescription}>
