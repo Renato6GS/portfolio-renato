@@ -3,6 +3,26 @@ import { WIDTHS_IMAGES } from './WIDTH_IMAGES';
 
 export const PROJECTS = [
   {
+    key: 'p0',
+    title: 'ESTAMPAS MUNDIAL QATAR 2022',
+    description: {
+      EN: 'Android application to collect the stamps of the Qatar 2022 World Cup with more than 500 downloads.',
+      ES: 'Aplicación de android para coleccionar las estampas del mundial Qatar 2022 con más de 500 descargas.',
+    },
+    img: '/projects/estampas-qatar.png',
+    imgBlur:
+      'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALzSURBVHgBJVNLbhtHEH3V3fPhkDRFSiZCGUaCANo4CwPRAQIB2eQAuUKuIfESAXyFnEGL7AMvpY3shRGbMiyRskRyPv2pcpGensEUqrtev6pXRdBHRGg+n5OaZjab0e3tLU2WS7pRx4mu3btarUT3RPdE3Xx+fr77w+qnAcduOk0VDQajdr2e9Pv9MY97o6NhdYBpMdIzozwfjjabdpCSzXs9h8vLy3R2diZ0cSEG+LsqiqepiH1hEZ8bkUqQTFE4obwiESdissQcmpj8fQI+mRDumqbZOmBuqqoarNf1C0f0a4jxhIQnlqIVzmCTB7ISkmxk5lUM8V3kaCRs6sXisVWAK7NcHJaO7FHn+YQCvzbCPyTLGfcMbFXAOgWAC5z4NqWgRQsfIfHD78fH5HB1BSpeuii9vkluQsHMBHLMlDIuGKYwYJvDsuu02nAS/xf2faaQfR5mOwCgfPmEYJksCmNdYQ0ZZzVxU7fIOCALkAwuk8SWKDkQG4oNfD/BLb2n2R3ghgbZM6U7HGl4RtZ7oSVTvupQbjsqEymLndIspEtzwkLL73Zaoi1QHj4DDUfIp4dKu4TZ1ODHDq6tkT15FJGVviGrgQShnf6vVWB3mOfq0pvLEvlgBHcwARfKFkQ+yyWpynonqQMFCzIhqMzKBrh5d6MMrhXqlXYUZUpQxdI4LZbvBNwKUzQsuU1oHEIZU5eLRBco+gKotEXdLpglhMhdbbt0T023gCeWbe2879AgoTUKYCRWFp970Syt4ToGGxgfRBlMOf+Ju/i1+eLc001nSZO147je2LTtwCkhKWUtW1IdH2DS+x7zXe3Q+tOeAuBf3ro/6oEPi/iwVnnko7ZKxaqO29agNqpqQGJhFmkkxvvI2UI7vX7+9r+9LvQGp+79UVkeTUd9hs/FFtpYTN3jI6JOquayn7zScqSUt46/1gc//tb+9fZNJHyfZ7qYE+FCxxmnNEaz919rfV5d/6LW1f7YA3p7oDF+5j/lH97Z3wAdaK+rR9biIAAAAABJRU5ErkJggg==',
+    size: WIDTHS_IMAGES.android,
+    download: true,
+    downloadTranslate: {
+      EN: 'Download',
+      ES: 'Descargar',
+    },
+    urlDemo: 'https://play.google.com/store/apps/details?id=com.luis_granados.qatar2022app&hl=es',
+    urlCode: null,
+    technologies: [TECHNOLOGIES.reactNative, TECHNOLOGIES.expo, TECHNOLOGIES.sqlite],
+  },
+  {
     key: 'p1',
     title: 'SALUDQUETZAL',
     description: {
