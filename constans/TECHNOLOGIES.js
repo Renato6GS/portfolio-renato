@@ -89,4 +89,22 @@ export const TECHNOLOGIES = {
     logo: '/icons/preact.svg',
     url: 'https://preactjs.com/',
   },
+  reactNative: {
+    key: 't16',
+    name: 'React Native',
+    logo: '/icons/react.svg',
+    url: 'https://reactnative.dev',
+  },
+  expo: {
+    key: 't17',
+    name: 'Expo',
+    logo: '/icons/expo.svg',
+    url: 'https://expo.dev/home',
+  },
+  sqlite: {
+    key: 't18',
+    name: 'SQLite',
+    logo: '/icons/sqlite.svg',
+    url: 'https://www.sqlite.org/index.html',
+  },
 };

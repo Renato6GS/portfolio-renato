@@ -11,4 +11,8 @@ export const WIDTHS_IMAGES = {
     width: 474,
     height: 351,
   },
+  android: {
+    width: 548,
+    height: 548,
+  },
 };
