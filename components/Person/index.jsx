@@ -6,11 +6,11 @@ import styles from './styles.module.css';
 
 export default function Person({ person = {} }) {
   const { t } = useI18N();
-  const { name = '', description = {}, socialMedia = [], image = '' } = person;
+  const { name = '', description = {}, socialMedia = [], image = '', blurImg = '' } = person;
 
   return (
     <div className={styles.person}>
-      <Avatar width='150' height='150' alt='' src={image} />
+      <Avatar width='150' height='150' alt='' src={image} blurDataURL={blurImg} />
       <h4 className={styles.title}>{name}</h4>
       <div className={styles.socialMedia}>
         {socialMedia.map(({ key, url, logo }) => {
