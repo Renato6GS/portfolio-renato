@@ -6,8 +6,8 @@ export const PROJECTS = [
     key: 'p0',
     title: 'ESTAMPAS MUNDIAL QATAR 2022',
     description: {
-      EN: 'Android application to collect the stamps of the Qatar 2022 World Cup with more than 10,000 downloads.',
-      ES: 'Aplicación de android para coleccionar las estampas del mundial Qatar 2022 con más de 10,000 descargas.',
+      EN: 'Android application to collect the stamps of the Qatar 2022 World Cup with more than 5,000 downloads.',
+      ES: 'Aplicación de android para coleccionar las estampas del mundial Qatar 2022 con más de 5,000 descargas.',
     },
     img: '/projects/estampas-qatar.png',
     imgBlur:
