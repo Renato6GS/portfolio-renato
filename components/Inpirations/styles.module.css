@@ -21,13 +21,23 @@
 
 .title {
   display: block;
+  color: var(--white);
   background-color: var(--primary-color);
   margin: 0 auto 60px;
   text-align: center;
   padding: 10px;
-  color: var(--secondary-color);
   border-radius: 6px;
   width: fit-content;
-  font-family: 'Satoshi Regular';
-  font-size: 1.35rem;
+  font-family: "Satoshi Regular";
+  background-image: linear-gradient(
+    45deg,
+    hsl(243deg 100% 31%) 0%,
+    hsl(221deg 100% 41%) 28%,
+    hsl(213deg 100% 47%) 44%,
+    hsl(206deg 100% 49%) 58%,
+    hsl(196deg 100% 46%) 70%,
+    hsl(183deg 100% 41%) 81%,
+    hsl(167deg 100% 45%) 91%,
+    hsl(155deg 100% 50%) 100%
+  );
 }
