@@ -15,6 +15,8 @@
   margin: 0 auto;
   color: var(--white);
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 3rem;
 }
 
@@ -90,7 +92,7 @@
 
 .anchorMobile {
   font-size: 0.7rem;
-  font-family: 'Satoshi Regular';
+  font-family: "Satoshi Regular";
 }
 
 .activeMenu {
