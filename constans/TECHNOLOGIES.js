@@ -107,4 +107,10 @@ export const TECHNOLOGIES = {
     logo: '/icons/sqlite.svg',
     url: 'https://www.sqlite.org/index.html',
   },
+  cohere: {
+    key: 't19',
+    name: 'Cohere AI',
+    logo: '/icons/cohere.svg',
+    url: 'https://cohere.ai/',
+  }
 };

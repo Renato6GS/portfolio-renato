@@ -23,6 +23,21 @@ export const PROJECTS = [
     technologies: [TECHNOLOGIES.reactNative, TECHNOLOGIES.expo, TECHNOLOGIES.sqlite],
   },
   {
+    key: 'p2',
+    title: 'HANGAME',
+    description: {
+      EN: 'Hangman game where an artificial intelligence will generate the words according to a series of parameters. He participated in the Hackathon 2023 organized by Midudev in collaboration with Cohere.',
+      ES: 'Juego del ahorcado donde una inteligencia artificial te generará las palabras de acuerdo a una serie de parámetros. Fue participe de la Hackathon 2023 organizada por Midudev en colaboración con Cohere.',
+    },
+    img: '/projects/hangame-images.png',
+    imgBlur:
+      'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKeSURBVHgBXVO7blNBEN3nfRobYyPxCAVFUoQqH5PPyD84v0ARpafMB9C6ToeQUQQFQSGGyHZyfZ/7XubasUMy0mhnd2dnz5yZwQjEe4/b9fj4GE8mk5X9VD6cnfkRuKK1bmXlfHh4SGEJugjF0trQlJah+MGJUWpmVSU556IsSzUej+0mEGuD7OzAY/5+4Ah5HTA28BYlnnisFPh545S11YtCLBZNfgP+t6PRSICuA4CBh8Nh4pV6RTk9CGi4C7AG1jtqrEXaaG2knpfPqh9URF/TNBVjNFbw1m0QoF6vF4RJOEx4tJvE8QFB5K11hiutvVRKwjrNlksU3s6ml3lzvTfdwxBknd7+/j4OegHrRt0kCaNBJ+nsMELeGe+4EMILJaUQEiGOLp1zKR1M2eL7Ykv0CkG/30dJmOA0Smmv06WUEGas4VVdIyobx0PGpJasSmocRzH5vwqrjWjEuiQErytDMMaEeITxqk4rAzwZHCP5uLxsY1ggTEiFgkAi6hiyTiNtjYdzDEqMlly4OrCspuWr8nEKjWgQZ7x9AL9ZT+B3Zx1SRnmjtFeiZkqWoVV5yI3kVFL6KIBSyuV5roMgqIC4HEAvvfMMSGuhKS2bUpS51UWJcFUTNP0D3YvahDyDLvSnn051nMYZLelv6LY+XObOWY4sAPLGYCMyVRTXVhZ5hxuzGwce4wcEXmda1ML+jT354oi7g5/7TjtmnAHunAPYFWqWN7ZWVzjL8x5a2m0KLY6jj0cyXaSzKIyMlXZqahNBENpyEwbER96rVNY11sWdYd1igr5tZ2FFxvnnc88s0/2kX8+ms+zq19Uiz/L5xeRi5kwxt3dq7mfLbPD8Tdm8/KlPTi4teiow0useWGvbH+R+Sulm397d+23lHy9Un/8FUOk2AAAAAElFTkSuQmCC',
+    size: WIDTHS_IMAGES.movil,
+    urlDemo: 'https://hangame.app/',
+    urlCode: 'https://github.com/Renato6GS/hangame-app',
+    technologies: [TECHNOLOGIES.nextjs, TECHNOLOGIES.mongodb, TECHNOLOGIES.cohere, TECHNOLOGIES.railway],
+  },
+  {
     key: 'p1',
     title: 'SALUDQUETZAL',
     description: {
@@ -42,21 +57,6 @@ export const PROJECTS = [
       TECHNOLOGIES.railway,
       TECHNOLOGIES.googlemaps,
     ],
-  },
-  {
-    key: 'p2',
-    title: 'HANGAME',
-    description: {
-      EN: 'A game about the hangman game with words from Spanish and English, where you can play with a friend.',
-      ES: 'Un juego del ahorcado con palabras del Español e Inglés, donde tú podrás jugar con un amigo.',
-    },
-    img: '/projects/hangame-images.png',
-    imgBlur:
-      'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKeSURBVHgBXVO7blNBEN3nfRobYyPxCAVFUoQqH5PPyD84v0ARpafMB9C6ToeQUQQFQSGGyHZyfZ/7XubasUMy0mhnd2dnz5yZwQjEe4/b9fj4GE8mk5X9VD6cnfkRuKK1bmXlfHh4SGEJugjF0trQlJah+MGJUWpmVSU556IsSzUej+0mEGuD7OzAY/5+4Ah5HTA28BYlnnisFPh545S11YtCLBZNfgP+t6PRSICuA4CBh8Nh4pV6RTk9CGi4C7AG1jtqrEXaaG2knpfPqh9URF/TNBVjNFbw1m0QoF6vF4RJOEx4tJvE8QFB5K11hiutvVRKwjrNlksU3s6ml3lzvTfdwxBknd7+/j4OegHrRt0kCaNBJ+nsMELeGe+4EMILJaUQEiGOLp1zKR1M2eL7Ykv0CkG/30dJmOA0Smmv06WUEGas4VVdIyobx0PGpJasSmocRzH5vwqrjWjEuiQErytDMMaEeITxqk4rAzwZHCP5uLxsY1ggTEiFgkAi6hiyTiNtjYdzDEqMlly4OrCspuWr8nEKjWgQZ7x9AL9ZT+B3Zx1SRnmjtFeiZkqWoVV5yI3kVFL6KIBSyuV5roMgqIC4HEAvvfMMSGuhKS2bUpS51UWJcFUTNP0D3YvahDyDLvSnn051nMYZLelv6LY+XObOWY4sAPLGYCMyVRTXVhZ5hxuzGwce4wcEXmda1ML+jT354oi7g5/7TjtmnAHunAPYFWqWN7ZWVzjL8x5a2m0KLY6jj0cyXaSzKIyMlXZqahNBENpyEwbER96rVNY11sWdYd1igr5tZ2FFxvnnc88s0/2kX8+ms+zq19Uiz/L5xeRi5kwxt3dq7mfLbPD8Tdm8/KlPTi4teiow0useWGvbH+R+Sulm397d+23lHy9Un/8FUOk2AAAAAElFTkSuQmCC',
-    size: WIDTHS_IMAGES.movil,
-    urlDemo: 'https://hangame-app.vercel.app/',
-    urlCode: 'https://github.com/Renato6GS/hangame-app',
-    technologies: [TECHNOLOGIES.nextjs, TECHNOLOGIES.mongodb],
   },
   {
     key: 'p3',
