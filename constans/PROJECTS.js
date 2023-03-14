@@ -74,22 +74,6 @@ export const PROJECTS = [
     technologies: [TECHNOLOGIES.nextjs, TECHNOLOGIES.sqlServer, TECHNOLOGIES.sendgrid],
   },
   {
-    key: 'p4',
-    title: 'POOL LANDING PAGE',
-    description: {
-      // eslint-disable-next-line quotes
-      EN: "My first paid project with me to a computer science teacher, to advertise the client's pool maintenance services.",
-      ES: 'Mi primer proyecto pagado con mi profesor de informática, para publicitar los servicios de mantenimineto de piscinas de un cliente.',
-    },
-    img: '/projects/pool-images.png',
-    imgBlur:
-      'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALrSURBVHgBZVPbbhs3EB3elnuVLFd27Ri9pY0RIEBRIOibC+gn5O/x/+itD+1b2h/IY4Q2BVIXaAxE61hY7Wq5vE4pWehLBhgecsg55JA8BHaGSPZICIH5/LEP8+iLCPP96Ga5xD3e3OwQ4WCPi2czfl5eJt2xyDwvJErBdmEV/Un0nFv8Vhs/8q2eMDas12u9WCzCjojHhkKSSDXyU8c+OyOj8hgSmXlKSOI9hEBJEQZPU9yKkH4MzfZD0zTrAz+yuDs7Pf3myJRnX2GavcS8eOll+kMkec548rxI+eUkFU/PJTsboUtS5lQVQldNp/r29jZwaFtinsjUJcnnbFRdQjH6nkp5RjgXIiAULOAROD0m5q7qICRB3zVCvG9j3q5MDkoRkSUiZHnBsmIKWf4Fy/NzFglSCHDEEEfghjIMmKOaMlfllbjnT2Pe6z1BNCnHQGRCiJSMpCnjaSZkIkQeCSoaIA/apxh4oiVlCaOl8GR1eAUKxhDQAwgbILEuogFuB6BGI4nxMPRohw6GvgWjO7BWo7MG4cWLPQH/7tkzAOcRdIthGy/dmwBKBkcJagzQg4EuTjwEBXZogfRb0mx78ubN20eC8WoVvGy9BaPibo3l8t6TeGrE0gXLNdFEEW22MGhrlcFhcMa7cHV1hcvlEvjrqsKfaKd7ZR7QmHecQuZcfHinp8LbUjLLhHBbQk0dnPkYS+jqdW/qutv/Rga3P5LzrxvIeBGIUT2zw4aqTSO2bSf1djPyqp6Q4a5C/Y774W0w5u8UR6tfXr0yh5+4CF+W86Hr7AeVgaJ9V1tt/lWDvkiYnxScJGNgasz8AxD6Ty/Z/erhD4MIISrnUQsYxXR9fU27ruPWlmnb1hWlYSKpL47zhF1U6C+yeJPUN6S5X//685/qN0QftbfXwk6Eu3r8wd1sNtNK6Y1uWi4np7QMDONR3Eat3F/vS/N7XHfIOajxU9vFyTxKu65rcnJygjtpLxYQDvP/y/k/UDmq43negFEAAAAASUVORK5CYII=',
-    size: WIDTHS_IMAGES.pcApple,
-    urlDemo: 'https://pool-landing-page.vercel.app/',
-    urlCode: 'https://github.com/Cloweling/pool-landing-page',
-    technologies: [TECHNOLOGIES.gatsby],
-  },
-  {
     key: 'p5',
     title: 'CALCULATOR APP',
     description: {
@@ -178,5 +162,21 @@ export const PROJECTS = [
     urlDemo: 'https://landing-umg-clone.vercel.app/',
     urlCode: 'https://github.com/Renato6GS/landing-umg-clone',
     technologies: [TECHNOLOGIES.astro, TECHNOLOGIES.preact],
+  },
+  {
+    key: 'p4',
+    title: 'POOL LANDING PAGE',
+    description: {
+      // eslint-disable-next-line quotes
+      EN: "My first paid project with me to a computer science teacher, to advertise the client's pool maintenance services.",
+      ES: 'Mi primer proyecto pagado con mi profesor de informática, para publicitar los servicios de mantenimineto de piscinas de un cliente.',
+    },
+    img: '/projects/pool-images.png',
+    imgBlur:
+      'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALrSURBVHgBZVPbbhs3EB3elnuVLFd27Ri9pY0RIEBRIOibC+gn5O/x/+itD+1b2h/IY4Q2BVIXaAxE61hY7Wq5vE4pWehLBhgecsg55JA8BHaGSPZICIH5/LEP8+iLCPP96Ga5xD3e3OwQ4WCPi2czfl5eJt2xyDwvJErBdmEV/Un0nFv8Vhs/8q2eMDas12u9WCzCjojHhkKSSDXyU8c+OyOj8hgSmXlKSOI9hEBJEQZPU9yKkH4MzfZD0zTrAz+yuDs7Pf3myJRnX2GavcS8eOll+kMkec548rxI+eUkFU/PJTsboUtS5lQVQldNp/r29jZwaFtinsjUJcnnbFRdQjH6nkp5RjgXIiAULOAROD0m5q7qICRB3zVCvG9j3q5MDkoRkSUiZHnBsmIKWf4Fy/NzFglSCHDEEEfghjIMmKOaMlfllbjnT2Pe6z1BNCnHQGRCiJSMpCnjaSZkIkQeCSoaIA/apxh4oiVlCaOl8GR1eAUKxhDQAwgbILEuogFuB6BGI4nxMPRohw6GvgWjO7BWo7MG4cWLPQH/7tkzAOcRdIthGy/dmwBKBkcJagzQg4EuTjwEBXZogfRb0mx78ubN20eC8WoVvGy9BaPibo3l8t6TeGrE0gXLNdFEEW22MGhrlcFhcMa7cHV1hcvlEvjrqsKfaKd7ZR7QmHecQuZcfHinp8LbUjLLhHBbQk0dnPkYS+jqdW/qutv/Rga3P5LzrxvIeBGIUT2zw4aqTSO2bSf1djPyqp6Q4a5C/Y774W0w5u8UR6tfXr0yh5+4CF+W86Hr7AeVgaJ9V1tt/lWDvkiYnxScJGNgasz8AxD6Ty/Z/erhD4MIISrnUQsYxXR9fU27ruPWlmnb1hWlYSKpL47zhF1U6C+yeJPUN6S5X//685/qN0QftbfXwk6Eu3r8wd1sNtNK6Y1uWi4np7QMDONR3Eat3F/vS/N7XHfIOajxU9vFyTxKu65rcnJygjtpLxYQDvP/y/k/UDmq43negFEAAAAASUVORK5CYII=',
+    size: WIDTHS_IMAGES.pcApple,
+    urlDemo: 'https://pool-landing-page.vercel.app/',
+    urlCode: 'https://github.com/Cloweling/pool-landing-page',
+    technologies: [TECHNOLOGIES.gatsby],
   },
 ];

@@ -29,11 +29,11 @@ export default function StickyNav() {
             {t('NAV_PROJECTS')}
           </a>
         </li>
-        <li className={styles.li}>
+        {/* <li className={styles.li}>
           <a className={styles.anchor} href='#nextProjects'>
             {t('NAV_NEXT_PROJECTS')}
           </a>
-        </li>
+        </li> */}
         <li className={styles.li}>
           <a className={styles.anchor} href='#inspirations'>
             {t('NAV_NEXT_INSPIRATION')}

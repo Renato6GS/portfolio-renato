@@ -81,6 +81,28 @@
   margin-bottom: 20px;
 }
 
+.bthShowProjects {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 1rem 1.2rem;
+  color: var(--secondary-color);
+  font-family: 'Satoshi Bold';
+  font-size: 1rem;
+  background-color: var(--primary-color);
+  cursor: pointer;
+  border-radius: 6px;
+  border: 1px solid var(--primary-color);
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* media query about hover */
+@media (hover: hover) {
+  .bthShowProjects:hover {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+  }
+}
+
 @media screen and (max-width: 850px) {
   .projectContainer {
     flex-direction: column;
@@ -93,7 +115,6 @@
   }
 
   .projectInfoContainer {
-    /* background-color: peru; */
     max-width: 550px;
     gap: 5rem;
   }

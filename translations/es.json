@@ -6,7 +6,7 @@
   "PROFESSION": "Desarrollador FrontEnd",
   "BTN_LABEL": "Descargar CV",
   "ABOUT_ME": "Acerca de mi",
-  "DESCRIPTION_PART_1": "+4 años de estudio en Ingeniería en Sistemas y +3 estudiando tecnologías web. Diferentes tipos de proyectos web desarrollados como un sistema para la Asignación y Revisión de Producción, los cuales me han hecho merecedor de las felicitaciones de mis maestros ingenieros en repetidas ocasiones.",
+  "DESCRIPTION_PART_1": "+4 años en Ingeniería en Sistemas y +3 en estudio de tecnologías web. Diferentes tipos de proyectos desarrollados con tecnologías web como un sistema para llevar el control de proyectos o un juego que utiliza inteligencia artificial; los cuales me han hecho merecedor de las felicitaciones de mis maestros ingenieros en repetidas ocasiones. Con un promedio actual de 95.78, haber obtenido el mejor promedio de mi promoción de ingeniería cada semestre junto con altas calificaciones universitarias, respalda mi fuerte mentalidad ordenada y esfuerzo.",
   "DESCRIPTION_PART_2": "Con un promedio actual de 95.78, haber obtenido el mejor promedio de mi promoción de ingeniería cada semestre junto con altas calificaciones universitarias respaldan mi fuerte mentalidad ordenada y esfuerzo.",
   "TITLE_PROJECTS": "Proyectos desarrollados",
   "TITLE_INPIRATIONS": "Inspiraciones",
@@ -43,5 +43,9 @@
   "NAV_PROJECTS": "Proyectos",
   "NAV_NEXT_PROJECTS": "Siguientes Proyectos",
   "NAV_NEXT_INSPIRATION": "Inspiraciones",
-  "NAV_CONTACT": "Contacto"
+  "NAV_CONTACT": "Contacto",
+
+  "SHOW_PROJECTS": "Mostrar todos lor poyectos",
+  "HIDE_PROJECTS": "Ocultar proyectos",
+  "CV_URL": "https://docs.google.com/document/d/1zpfBYHad14FObuUfj6hFyaIbWUqcpkGPddMD5-YV5J0/edit?usp=sharing"
 }

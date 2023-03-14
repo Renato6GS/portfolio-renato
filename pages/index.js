@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Header from 'components/Header';
 import AboutMe from 'components/AboutMe';
 import Projects from 'components/Projects';
-import NextProjects from 'components/NextProjects';
+// import NextProjects from 'components/NextProjects';
 import Inpirations from 'components/Inpirations';
 import FormSection from 'components/FormSection';
 import Footer from 'components/Footer';
@@ -22,7 +22,7 @@ export default function Home() {
         <StickyNav />
         <AboutMe />
         <Projects />
-        <NextProjects />
+        {/* <NextProjects /> */}
         <Inpirations />
         <FormSection />
         <Footer />

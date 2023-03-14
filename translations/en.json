@@ -6,7 +6,7 @@
   "PROFESSION": "FrontEnd Developer",
   "BTN_LABEL": "Download CV",
   "ABOUT_ME": "About me",
-  "DESCRIPTION_PART_1": "+4 years of study in systems engineering and +3 studying web technologies. Different types of web projects developed as a system for Assignment and Production Review, which have earned me the congratulations of my master engineers on repeated occasions.",
+  "DESCRIPTION_PART_1": "+4 years of study in systems engineering and +3 studying web technologies. Different types of projects developed with web technologies such as a system to keep track of projects or a game that uses artificial intelligence; which have earned me the congratulations of my teacher engineers on several occasions. With a current GPA of 95.78, having earned the best GPA of my engineering class each semester along with high college grades support my strong lean mindset and effort.",
   "DESCRIPTION_PART_2": "With a current GPA of 95.78, having earned the best GPA of my engineering class each semester along with high college grades support my strong lean mindset and effort.",
   "TITLE_PROJECTS": "Developed Projects",
   "TITLE_INPIRATIONS": "Inspirations",
@@ -43,5 +43,9 @@
   "NAV_PROJECTS": "Projects",
   "NAV_NEXT_PROJECTS": "Next projects",
   "NAV_NEXT_INSPIRATION": "Inspirations",
-  "NAV_CONTACT": "Contact"
+  "NAV_CONTACT": "Contact",
+
+  "SHOW_PROJECTS": "Show all projects",
+  "HIDE_PROJECTS": "Hide projects",
+  "CV_URL": "https://docs.google.com/document/d/1FtUEsZK2coWCr-Lb0j_dEklNS5yRxAbBVWRcTMVBPfI/edit?usp=sharing"
 }

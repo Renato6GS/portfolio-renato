@@ -2,15 +2,26 @@ import ListOfTechnologies from 'components/ListOfTechnologies';
 import { PROJECTS } from 'constans/PROJECTS';
 import { useI18N } from 'context/i18n';
 import Image from 'next/image';
+import { useEffect, useState } from 'react';
 
 import styles from './styles.module.css';
 
 export default function ListOfProjects() {
   const { t } = useI18N();
+  const [showProjects, setShowProjects] = useState([]);
+
+  useEffect(() => {
+    setShowProjects(PROJECTS.slice(0, 3));
+  }, []);
+
+  const handleShowProjectsClick = () => {
+    if (showProjects.length === PROJECTS.length) setShowProjects(PROJECTS.slice(0, 3));
+    else setShowProjects(PROJECTS);
+  };
 
   return (
     <div className={styles.listOfProjectsContainer}>
-      {PROJECTS.map(
+      {showProjects.map(
         ({
           key,
           title,
@@ -27,13 +38,13 @@ export default function ListOfProjects() {
           return (
             <article key={key} className={styles.projectContainer}>
               <div className={styles.projectImageContainer}>
-                <a href={urlDemo} target='_blank' rel='noopener noreferrer'>
+                <a href={urlDemo} target="_blank" rel="noopener noreferrer">
                   <Image
                     src={img}
                     alt={title}
                     width={size.width}
                     height={size.height}
-                    placeholder='blur'
+                    placeholder="blur"
                     blurDataURL={imgBlur}
                   />
                 </a>
@@ -46,15 +57,15 @@ export default function ListOfProjects() {
                   </p>
                   <div className={styles.linksContainer}>
                     {urlDemo && (
-                      <a className={styles.link} href={urlDemo} target='_blank' rel='noopener noreferrer'>
+                      <a className={styles.link} href={urlDemo} target="_blank" rel="noopener noreferrer">
                         {download ? downloadTranslate[t('PROJECT_LANGUAGE')] : 'Demo'}
-                        <Image src={'/icons/arrowToRight.svg'} width='24' height='24' alt={'Demo of the project'} />
+                        <Image src={'/icons/arrowToRight.svg'} width="24" height="24" alt={'Demo of the project'} />
                       </a>
                     )}
                     {urlCode && (
-                      <a className={styles.link} href={urlCode} target='_blank' rel='noopener noreferrer'>
+                      <a className={styles.link} href={urlCode} target="_blank" rel="noopener noreferrer">
                         GitHub
-                        <Image src={'/icons/github.svg'} width='24' height='24' alt={'Link to code source'} />
+                        <Image src={'/icons/github.svg'} width="24" height="24" alt={'Link to code source'} />
                       </a>
                     )}
                   </div>
@@ -68,6 +79,9 @@ export default function ListOfProjects() {
           );
         }
       )}
+      <button className={styles.bthShowProjects} onClick={handleShowProjectsClick}>
+        {showProjects.length === PROJECTS.length ? t('HIDE_PROJECTS') : t('SHOW_PROJECTS')}
+      </button>
     </div>
   );
 }
