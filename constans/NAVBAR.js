@@ -1,5 +1,14 @@
 export const NAVBAR = [
   {
+    key: 'n0',
+    name: {
+      EN: 'Home',
+      ES: 'Inicio',
+    },
+    href: '#home',
+    icon: '/icons/home_nav.svg',
+  },
+  {
     key: 'n1',
     name: {
       EN: 'About',
@@ -17,15 +26,15 @@ export const NAVBAR = [
     href: '#projects',
     icon: '/icons/projects_nav.svg',
   },
-  {
-    key: 'n3',
-    name: {
-      EN: 'Next',
-      ES: 'Futuros',
-    },
-    href: '#nextProjects',
-    icon: '/icons/next_projects_nav.svg',
-  },
+  // {
+  //   key: 'n3',
+  //   name: {
+  //     EN: 'Next',
+  //     ES: 'Futuros',
+  //   },
+  //   href: '#nextProjects',
+  //   icon: '/icons/next_projects_nav.svg',
+  // },
   {
     key: 'n4',
     name: {

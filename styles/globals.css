@@ -1,5 +1,6 @@
 :root {
   --primary-color: #adf0d1;
+  --primary-color-bright: #00ff95;
   --secondary-color: #002;
   --white: #fcf7f4;
 }
@@ -23,16 +24,16 @@ a {
 }
 
 @font-face {
-  font-family: 'Satoshi Bold';
-  src: url('/fonts/Satoshi-Bold.woff2') format('woff2');
+  font-family: "Satoshi Bold";
+  src: url("/fonts/Satoshi-Bold.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: 'Satoshi Regular';
-  src: url('/fonts/Satoshi-Regular.woff2') format('woff2');
+  font-family: "Satoshi Regular";
+  src: url("/fonts/Satoshi-Regular.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: 'Tanker';
-  src: url('/fonts/Tanker-Regular.woff2') format('woff2');
+  font-family: "Tanker";
+  src: url("/fonts/Tanker-Regular.woff2") format("woff2");
 }

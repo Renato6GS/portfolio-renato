@@ -1,6 +1,5 @@
 .footer {
-  background: url('/img/bg-footer.svg') no-repeat var(--secondary-color);
-  background-size: cover;
+  background-color: var(--secondary-color);
   padding: 6rem 0 4rem;
 }
 
@@ -30,11 +29,11 @@
   text-align: center;
   margin-top: 5px;
   color: var(--white);
-  font-family: 'Satoshi Regular';
+  font-family: "Satoshi Regular";
 }
 
 .sourceCode {
-  font-family: 'Satoshi Regular';
+  font-family: "Satoshi Regular";
   color: var(--primary-color);
 }
 
